@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7F4779B428DA35B100E89BAF /* CrazyGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4779B328DA35B100E89BAF /* CrazyGameApp.swift */; };
-		7F4779B628DA35B100E89BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4779B528DA35B100E89BAF /* ContentView.swift */; };
 		7F4779B828DA35B200E89BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4779B728DA35B200E89BAF /* Assets.xcassets */; };
 		7F4779BC28DA35B200E89BAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4779BB28DA35B200E89BAF /* Preview Assets.xcassets */; };
+		7F4779C328DA35E900E89BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4779C228DA35E900E89BAF /* ContentView.swift */; };
+		7F4779C528DA35ED00E89BAF /* IntegratedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4779C428DA35ED00E89BAF /* IntegratedSlider.swift */; };
+		7F4779C728DA35F300E89BAF /* PreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4779C628DA35F300E89BAF /* PreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F4779B028DA35B100E89BAF /* CrazyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4779B328DA35B100E89BAF /* CrazyGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyGameApp.swift; sourceTree = "<group>"; };
-		7F4779B528DA35B100E89BAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F4779B728DA35B200E89BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4779B928DA35B200E89BAF /* CrazyGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrazyGame.entitlements; sourceTree = "<group>"; };
 		7F4779BB28DA35B200E89BAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F4779C228DA35E900E89BAF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F4779C428DA35ED00E89BAF /* IntegratedSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegratedSlider.swift; sourceTree = "<group>"; };
+		7F4779C628DA35F300E89BAF /* PreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				7F4779B328DA35B100E89BAF /* CrazyGameApp.swift */,
-				7F4779B528DA35B100E89BAF /* ContentView.swift */,
+				7F4779C628DA35F300E89BAF /* PreView.swift */,
+				7F4779C428DA35ED00E89BAF /* IntegratedSlider.swift */,
+				7F4779C228DA35E900E89BAF /* ContentView.swift */,
 				7F4779B728DA35B200E89BAF /* Assets.xcassets */,
 				7F4779B928DA35B200E89BAF /* CrazyGame.entitlements */,
 				7F4779BA28DA35B200E89BAF /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4779B628DA35B100E89BAF /* ContentView.swift in Sources */,
+				7F4779C328DA35E900E89BAF /* ContentView.swift in Sources */,
+				7F4779C528DA35ED00E89BAF /* IntegratedSlider.swift in Sources */,
+				7F4779C728DA35F300E89BAF /* PreView.swift in Sources */,
 				7F4779B428DA35B100E89BAF /* CrazyGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
